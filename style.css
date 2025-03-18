@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    margin-top: 1em;
+}
+.input-area{
+    text-align: center;
+    font-size: 50px;
+}
+#text-input{
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    margin-top: 1em;
+    border: 1px solid lightgray;
+    cursor: pointer;
+}
+.btn-area{
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+.btn-area button{
+    margin: 2rem;
+    width: 200px;
+    height: 50px;
+    border: none;
+}
+.btn-area button:hover{
+    background-color: beige;
+}
+.board{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5em;
+    font-size: 20px;
+}
